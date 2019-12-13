@@ -1,1 +1,34 @@
 // Mixins Here
+.hoverNav {
+    color:blue;
+    opacity: 50%;
+    transition: 1s ease;
+}
+.button (@color, @font-size) {
+    background-color: #22283A;
+    color:@color;
+    padding:2%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: @font-size;
+    width: 35%;
+}
+.buttonHover {
+
+        background-color: white;
+        color:#22283A;
+        padding:2%;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 2rem;
+        width: 35%;
+}
+.buttonMobile (@color, @font-size) {
+    background-color: #22283A;
+    color:@color;
+    padding:2%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: @font-size;
+    width: 80%;
+}
