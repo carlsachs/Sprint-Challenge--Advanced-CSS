@@ -3,6 +3,15 @@
   opacity: 50%;
   transition: 1s ease;
 }
+.buttonHover {
+  background-color: white;
+  color: #22283A;
+  padding: 2%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2rem;
+  width: 35%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,7 +177,7 @@ p {
 #navlogo {
   display: flex;
   flex-direction: column;
-  background-color: lightgrey;
+  background-color: #f2f2f2;
   width: 100%;
 }
 #navlogo .logo {
@@ -260,6 +269,16 @@ footer {
   text-align: center;
   font-size: 2rem;
   width: 35%;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: #22283A;
+  padding: 2%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2rem;
+  width: 35%;
+  border: 1px solid blue;
 }
 .home .walk .walk-img {
   width: 46%;
